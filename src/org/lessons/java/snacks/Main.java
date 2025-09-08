@@ -6,5 +6,14 @@ public class Main {
 
         System.out.println( Ariel.studentData());
        
+
+        BankAccount acc1 = new BankAccount(1309431304);
+
+        acc1.deposit(100.50);
+
+        acc1.withdraw(29.99);
+
+        System.err.println(acc1.getBalance());
+
     }
 }
