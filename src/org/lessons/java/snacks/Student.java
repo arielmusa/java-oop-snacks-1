@@ -13,7 +13,6 @@ public class Student {
     }
 
     // get/set name
-
     public String getName() {
         return name;
     }
@@ -23,7 +22,6 @@ public class Student {
     }
 
     //get/set surname
-
     public String getSurname() {
         return surname;
     }
@@ -33,7 +31,6 @@ public class Student {
     }
 
     // get/set age
-
     public int getAge() {
         return age;
     }
@@ -42,6 +39,9 @@ public class Student {
         this.age = age;
     }
 
+    public String toString() {
+        return name + " " + surname + ", " + age + " anni";
+    }
 
     public String studentData() {
         return name + " " + surname + ", " + age + " anni";
